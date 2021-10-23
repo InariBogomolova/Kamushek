@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container {
+    width: 1000px;
+    padding: 5;
+    margin: 100px auto;
+    text-align: center;
+    color: saddlebrown;
+    box-sizing: border-box;
+}
+.header {
+    width: auto;
+    height: 100px;
+    background-color: navajowhite;
+}
+
+.nav {
+    height: 80px;
+    background-color: burlywood;
+}
+
+.block {
+    display: flex;
+}
+
+.main {
+    width: 80%;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+.aside {
+    width: 20%;
+    height: 400px;
+    background-color: moccasin;
+}
+
+.footer {
+    height: 100px;
+    background-color: beige;
+}
