@@ -8,11 +8,13 @@
     padding: 0;
 }
 
+
 .d-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .container {
     width: 1000px;
