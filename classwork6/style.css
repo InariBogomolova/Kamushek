@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    margin: 10px;
+    text-align: center;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 800px;
+    padding: 50px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    row-gap: 25px;
+
+
+
+}
+.header__item {
+    width: 600px;
+    height: 400px;
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.kabobs {
+    height: 200px;
+    background-color: red;
+}
+
+.kabobs_blocks {
+    display: flex;
+    row-gap: 25px;
+}
+
+.kabobs_blocks__item {
+    width: 200px;
+    height: 150px;
+    background-color: steelblue;
+
+}

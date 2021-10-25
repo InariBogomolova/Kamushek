@@ -1,97 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lesson4</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 30px 50px;
+        }
+
+        .bg1 {
+            background: white;
+        }
+
+        .bg2 {
+            background: whitesmoke;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hauto {
+            height: auto;
+        }
+
+        .cr {
+            color: dimgray;
+        }
+
+
+        li{
+            color: palevioletred;
+        }
+        .fs18 {
+            font-size: 18px;
+        }
+        .fs23 {
+            font-size: 23px;
+
+        .img {
+            box-shadow: 5px -5px 5px silver;
+        }
+
+        .h {
+            color: whitesmoke;
+            font-size: 30px;
+            text-align: center;
+            background: silver;
+        }
+
+        .father {
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .container {
+            width: 100%;
+            padding: 20px;
+            border-left: 10px solid silver;
+            border-bottom: 10px solid silver;
+            box-sizing: border-box;
+            border-radius: 40px;
+        }
+
+    </style>
 </head>
 <body>
-<ul class="soc-icon">
-    <li class="soc-icon__link"></li>
-    <li class="soc-icon__link"></li>
-    <li class="soc-icon__link"></li>
-    <li class="soc-icon__link"></li>
-</ul>
+<div class="father hauto bg1">
+    <div class="wrap bg1 flex">
+        <div class="container hauto bg2">
+            <h1 class="h">Магическая уборка: 8 советов по наведению порядка дома</h1>
 
-<header class="header">
-    <div class="header__top">
-        <div class="wrapper header__top_grid">
-            <div class="header__logo"></div>
-            <nav class="nav">
-                <div class="nav__item"><a href="#">item</a></div>
-                <div class="nav__item"><a href="#">item</a></div>
-                <div class="nav__item"><a href="#">item</a></div>
-                <div class="nav__item"><a href="#">item</a></div>
-            </nav>
-        </div>
+            <p style="color: dimgray; font-size: 18px">
+                Зачем сортировать вещи по категориям, в чем плюсы вертикального хранения, как легко и просто поддерживать чистоту –
+                рассказываем о секретах японского искусства наведения порядка
+            </p>
+            <div class="item flex">
+                <img src="images/uborka-i-fitnes1.jpg" height="485" width="728"/></div>
+    </div>
+    <div class="container">
+        <h2 class="h">Этап №1: уничтожаем хаос</h2>
+
+        <ul>
+            <li class="fs23">Сортируйте вещи по категориям, а не по месту расположения
+                <p class="fs18 cr">
+                    «Вместо того, чтобы решить, что сегодня вы будете убирать какую-то конкретную комнату, задайте цель типа
+                    «сегодня одежда, завтра книги»
+                </p>
+            </li>
+
+            <li class="fs23">Избавьтесь от ненужного за один раз
+                <p class="fs18 cr">
+                    «Даже не думайте о том, чтобы убирать вещи, пока не закончите процесс избавления от ненужного»
+                </p>
+            </li>
+
+            <li class="fs23">Выбросите все, что больше не радует
+                <p class="fs18 cr">
+                    «В чем вообще состоит смысл уборки? Если не в том, чтобы наше пространство и содержащиеся в нем вещи
+                    дарили нам счастье, тогда, думается мне, в ней вообще нет никакого смысла»
+                </p>
+            </li>
+
+            <li class="fs23">Разбирайте за раз только одну категорию
+                <p class="fs18 cr">
+                    «Сокращая количество вещей в доме, вы в какой-то момент осознаете, сколько и чего именно вам нужно»
+                </p>
+            </li>
+        </ul>
     </div>
 
-    <div class="header__main wrapper">
-        <h1 class="header__title">Компания Comfi!!!</h1>
-        <p class="header__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aperiam architecto aspernatur,
-            beatae consequuntur cumque dolore eius enim et excepturi exercitationem fugit harum labore magnam magni
-            molestias nisi nulla obcaecati odio optio repellat, reprehenderit sapiente sint velit, veniam vero
-            voluptatem? Doloribus facere impedit ipsa iste laboriosam nulla, possimus totam!
-        </p>
+    <div class="container">
+        <h2 class="h">Этап №2: организуем порядок</h2>
 
-        <button>Enter</button>
-    </div>
-</header>
+        <ul>
 
-<div class="main">
-    <div class="products">
-        <div class="products_grid">
-            <h2 class="products_title">Products</h2>
-            <div class="products__list">
-                <div class="products__item">
-                    <div class="products__item_imag">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-                <div class="products__item">
-                    <div class="products__item_imag">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-                <div class="products__item">
-                    <div class="products__item_imag">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-                <div class="products__item">
-                    <div class="products__item_imag">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-        </div>
-        </div>
-    </div>
+            <li class="fs23">Отведите каждой вещи свое место
+                <p class="fs18 cr">
+                    «Существование «беспризорной» вещи умножает шансы на то, что ваше пространство снова станет захламленным»
+                </p>
+            </li>
 
-    <div class="about">
-        <div class="wrapper about__grid">
-            <div class="about_card">
-                <div class="about__photo">
-                    <div></div>
-                </div>
-                <div class="about__name">Vasyl</div>
-                <div class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, sunt!</div>
-            </div>
-            <div class="about_card">
-                <div class="about__photo">
-                    <div></div>
-                </div>
-                <div class="about__name">Vasyl</div>
-                <div class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, sed.</div>
-            </div>
-            <div class="about_card">
-                <div class="about__photo">
-                    <div></div>
-                </div>
-                <div class="about__name">Vasyl</div>
-                <div class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eligendi.</div>
-            </div>
-        </div>
+            <li class="fs23">Стремитесь к простоте
+                <p class="fs18 cr">
+                    «Выбирая, что хранить, спросите свое сердце; выбирая, где хранить, спросите свой дом»
+                </p>
+            </li>
+
+            <li class="fs23">Попробуйте систему вертикального хранения
+                <p class="fs18 cr">
+                    «Вещи удобнее хранить там, где их было бы удобнее не доставать, а возвращать на место»
+                </p>
+            </li>
+
+            <li class="fs23">Поддерживайте чистоту
+                <p class="fs18 cr">
+                    «Но почему у нас так много вещей? Обычно потому, что мы не очень хорошо представляем, сколько всего нам на
+                    самом деле нужно»
+                </p>
+            </li>
+
+        </ul>
     </div>
 </div>
 </body>
