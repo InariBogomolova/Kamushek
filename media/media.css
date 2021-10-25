@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+    .soc-icon {
+        display: none;
+    }
+
+    .nav__button {
+        display: flex;
+    }
+
+    .products {
+        padding: 10px;
+    }
+
+    .about__grid, .products__list {
+        flex-direction: column;
+    }
+
+    .about_card {
+        width: 100%;
+    }
+
+}
