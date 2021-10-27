@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../restaurant_template/.idea/restaurant_template.iml" filepath="$PROJECT_DIR$/../restaurant_template/.idea/restaurant_template.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sep-2021-html-module.iml" filepath="$PROJECT_DIR$/.idea/sep-2021-html-module.iml" />
     </modules>
   </component>
